@@ -1,0 +1,419 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: fixed;
+    top: 0;
+}
+
+nav{
+    width: 94%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navpart1{
+    background-color: white;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}    
+
+
+.navpart2{
+    background-color: white;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navpart3{
+    background-color: white;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navpart3 button{
+    position: relative;
+    left: 25%;
+    cursor: pointer;
+}
+
+.navpart1 h1{
+    position: relative;
+    left: 5%;
+    bottom: 24%;
+    font-size: 28px;
+    letter-spacing: 0.01px;
+
+} 
+
+.navpart1 img{
+    width: 40px;
+    height: 40px;
+}
+
+h1 img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+span{
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    color: #767676;
+    font-weight: 600;
+
+}
+
+span p:hover{
+    font-size: 18.3px;
+    color: #333;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+    
+}
+
+h1 a {
+    color: #333;
+    text-decoration: none;
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+}
+
+button{
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: white;
+    background-color: #04ddb2;
+    height: 45px;
+    width: 130px;
+    font-size: 19px;
+    border-radius: 30px;
+    border: white;
+    font-weight: 600;
+}
+
+button:hover{
+    height: 50px;
+    width: 135px;
+    font-size: 20px;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+
+} 
+
+.body1{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1{
+    color: #333;
+    opacity: 1;
+    font-size: 65px;
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+.text h1 span{
+    color: #04ddb2;
+    opacity: 1;
+    font-size: 65px;
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.text p {
+    color: #333;
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.filler{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 560px;
+}
+
+.insidebox{
+    margin: auto;
+    height: 560px;
+    width: 950px;
+    background-color: rgb(232,237,240);
+    border-radius: 30px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 60px 120px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+.insidebox img{
+    height: 440px;
+    width: 700px;
+    border-radius: 30px;
+}
+
+.insidebox:hover{
+    transform: scale(1.02);
+    transition: transform 0.4s ease-in-out;
+    box-shadow: 0px 40px 40px rgba(0,0,0,0.25);
+}
+
+.body2{
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.body2 p{
+    color: #333;
+    opacity: 1;
+    font-size: 65px;
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+
+.body3{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.body3 button{
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: white;
+    background-color: #04ddb2;
+    height: 50px;
+    width: 160px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: white;
+    font-weight: 600;
+}
+
+.body3 button:hover{
+    height: 55px;
+    width: 165px;
+    cursor: pointer;
+    font-size: 21px;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    height: 375px;
+}
+
+.innerbox{
+    height: 375px;
+    width: 1060px;
+    margin: auto;
+    border-top: 1px solid rgba(51, 51, 51,0.3);
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.innerbox2{
+    width: 900px;
+    height: 220px;
+    /* background-color: pink; */
+    position: relative;
+    bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.boxes{
+    /* background-color: green; */
+    height: 220px;
+    width: 150px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    line-height: 35px;
+}
+
+.box1{
+    width: 160px;
+}
+
+.box1 img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 5px;
+}
+
+.box1 p{
+    font-size: 14px;
+    color: rgb(51,51,51);
+    font-weight: 500;
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+#size{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.box2{
+    font-size: 15px;
+    color: rgb(51,51,51);
+    font-weight: 500;
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: flex;
+    align-items: start;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 35px;
+    line-height: 40px;
+}
+
+.boxes ul{
+    list-style-type: none;
+}
+
+#size2{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0,0.85);
+}
+
+.box3{
+    font-size: 15px;
+    color: rgb(51,51,51);
+    font-weight: 500;
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+    padding: 0px 0 0 35px;
+    line-height: 40px;
+}
+
+.box4{
+    font-size: 15px;
+    color: rgb(51,51,51);
+    font-weight: 500;
+    font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+    padding: 0px 0px 0 35px;
+    line-height: 40px;
+}
+
+.box4,.box3,.box2 li{
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    opacity: 0.9;
+    text-decoration: none;
+
+
+}
+
+.box5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.box5 button{
+    width: 32px;
+    height: 32px;
+}
+
+#diff i{
+    position: relative;
+    right: 0.5px;
+    top: 0.5px;
+    width: 17px;
+    height: 18px;
+}
+
+.change{
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    opacity: 0.9;
+    line-height: 40px;
+}
+.margin i{
+    margin-right: 4px;
+}
+
+li{
+    margin-bottom: 2px;
+}
+
+li a{
+    text-decoration: none;
+    color:rgb(51,51,51);
+    
+}
+
+li a:hover{
+    font-size: 16px;
+    color:rgb(0,0,0);
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+}
+
+
+#diff:hover{
+    width: 34px;
+    height: 34px;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+}
